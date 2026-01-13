@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+/*#6232f8*/
+
+body {
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px;
+	color: #5d6b81;
+	line-height: 26px;
+	background: linear-gradient(#fff 0%,#f1ecfe 48.5%,#fff 100%);
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.align-items-end {
+	align-items: flex-end !important;
+}
+
+.testimonial_wrapper {
+	padding: 80px 0;
+}
+
+.testimonial_wrapper .testimonial_item {
+	width: 415px;
+	flex-shrink: 0;
+}
+
+.testimonial_wrapper .testimonial_item figure {
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid #00000024;
+    border-radius: 50%;
+    position: relative;
+}
+
+.testimonial_wrapper .testimonial_item figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.testimonial_wrapper .testimonial_item figure .quote {
+    background: #6232f8;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: -5%;
+}
+
+.testimonial_wrapper .testimonial_item .border {
+	border-left: 3px solid #6232f8 !important;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-top: 1px solid transparent !important;
+	border-right: 1px solid transparent !important;
+	border-bottom: 1px solid transparent !important;
+}
+
+.testimonial_wrapper .testimonial_item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.testimonial_wrapper .testimonial_item span {
+    display: block;
+    color: #1b774f;
+}
+
+.testimonial_wrapper .testimonial_item p {
+    font-size: 18px;
+    margin: 15px 0 0 0;
+}
+
+.testimonial_wrapper .testimonial_item .star {
+	margin-top: 10px;
+}
+
+.testimonial_wrapper .testimonial_item .star i {
+	color: #6232f8;	
+}
+
+.owl-carousel .owl-stage {
+	display: flex;
+	align-items: center;
+}
